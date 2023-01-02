@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header todas las html */
+
+header {
+    background-color: black;
+    height: 150px;
+}
+
+.logo {
+    position: relative;
+    top: 4.5vh; left: 26px;
+}
+
+img, svg {
+    width: 20vh;
+}
+
+.tituloHeader {
+    color: white;
+    position: relative;
+    top: 9vh; left: 50px;
+}
+
+.h2, h2 {
+    font-size: 10vh;
+    font-weight: bolder;
+}
+
+.menuHeader {
+    position: relative;
+    top: 13vh; left: 20px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.menuHeader ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menuHeader li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.menuHeader li :hover {
+    font-style: italic;
+    color: #008AFF;
+}
+
+/* main todas las html */
+
+main {
+    background-color: black;
+    height: 500px;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-style: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(0, 138, 255, 0.5);
+    text-align: center;
+}
+
+/* footer todas las html */
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    padding-right: 10vh;
+    background-color: black;
+    text-align: end;
+}
+
+.footerIconos{
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    margin-top: 2vh;
+    width: 30px;
+    height: 30px;
+}
+
+.footerIconos:hover {
+    transform: scale(1.2);
+    color: #008AFF;
+    background-color: black;
+}
+
+/* index html */
+
+.fondoIndex {
+    background-image: url("../img/fondoIndex.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 100vh;
+    height: auto;
+    margin-top: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-inner {
+    border: white solid 15px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.h5, h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+/* recipes html */
+
+.fondoRecipes {
+    background-image: url("../img/fondoRecipes.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.sectionRecetas {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #008AFF;
+    text-shadow: 4px 4px 4px #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 4vh;
+    text-align: center
+}
+
+.tartas {
+    display: flex;
+}
+
+.tartas p {
+    color: white;
+    font-size: 1rem;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.tartas img, svg {
+    margin-left: 15px;
+    border: white solid 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.muffins {
+    display: flex;
+}
+
+.muffins p {
+    color: white;
+    font-size: 1rem;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.muffins img, svg {
+    margin-left: 15px;
+    border: white solid 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* special occasions html */
+
+.fondoSpecial {
+    background-image: url("../img/fondoSpecial.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.sectionSpecial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div .card {
+    margin-top: 4vh;
+    border: white solid 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    background-color: rgba(0, 138, 255, 0.5);
+}
+
+.card-title {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card-body .card-text {
+    color: white;
+    text-align: center;
+    font-size: .9em;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #008AFF;
+    border-color: #008AFF;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* about us html */
+
+.bodyAbout {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fondoAbout {
+    background-image: url("../img/fondoAbout.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.sectionAbout {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    padding: 30px;
+}
+
+p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imgAbout {
+    width: 60vh;
+    border: white solid 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* contact html */
+
+.fondoContact {
+    background-image: url("../img/fondoContact.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.formulario {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.formulario input {
+    width: 450px;
+    height: 50px;
+    padding: 13px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.formulario textarea {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+    padding: 13px;
+}
+
+#buttonFormulario{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    width: 90px;
+    left: 91%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 138, 255, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#buttonFormulario:hover{
+    background-color: #008AFF;
+}
